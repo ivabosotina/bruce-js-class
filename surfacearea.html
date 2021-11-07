@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sufracearea.js"></script>
+    <script src="common.js"></script>
+</head>
+
+<body>
+
+    <p>get the surface area of triangle</p>
+
+    Base: <input id="inputBase">
+    Height: <input id="inputHeight">
+
+
+    <button id="btnSurfaceArea" onclick="
+   showOutput('perSurfaceArea',
+
+    calcSurfaceArea(
+        getInput('inputBase'), 
+        getInput('inputHeight')
+    )
+        )">Calculate</button>
+
+    <p id="perSurfaceArea"> This is the output</p>
+
+
+</body>
+
+</html>
